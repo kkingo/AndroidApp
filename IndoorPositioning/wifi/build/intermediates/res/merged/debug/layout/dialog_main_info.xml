@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_loading"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_tv_status"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="正在为您搜集数据......"/>
+
+        <TextView
+            android:id="@+id/id_tv_time"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_bright"
+            android:text="60s"/>
+
+        <Button
+            android:textColor="#fff"
+            android:id="@+id/id_btn_cancel2"
+            android:layout_marginTop="20dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="取消"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_console"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="您即将开始收集此点的数据，确认吗？"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/id_btn_cancel"
+            android:textColor="#fff"
+            android:background="@android:color/holo_red_light"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="放弃" />
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:textColor="#fff"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="确定"
+            android:id="@+id/id_btn_ok"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

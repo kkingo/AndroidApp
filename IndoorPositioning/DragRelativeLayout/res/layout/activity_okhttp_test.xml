@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/four_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/black" />
+
+    <Button
+        android:id="@+id/login_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="登陆" />
+
+    <Button
+        android:id="@+id/get_cookie_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="获取Cookie" />
+
+    <Button
+        android:id="@+id/down_load_file"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="文件下载" />
+
+    <TextView
+        android:id="@+id/cookie_show_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" />
+
+</LinearLayout>

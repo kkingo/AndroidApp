@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:5:2-92
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:5:19-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:6:2-89
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:6:19-70
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:7:2-89
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:7:19-70
+uses-permission#android.permission.INTERNET
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:8:2-80
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:8:19-61
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:10:22-78
+application
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:11:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\King\.android\build-cache\06d12336a14df6ce81d3a7bb39cab1bbe3e2a6ae\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.1.0] C:\Users\King\.android\build-cache\9bef7a2b64147ae20b6146af4e5fb062a8656858\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\King\.android\build-cache\0882221fbbdc87d9aa41c9660f06652f50d51c7d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\King\.android\build-cache\d4970bfe1e46b5fb0871fd93e84a10a7cfcd324c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\King\.android\build-cache\1300861562f874d6c3a6c969c8c85576e8112391\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.0] C:\Users\King\.android\build-cache\ce2f71a4e8e07576eab13e05666ce9a550f83f50\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\King\.android\build-cache\4d96dc766acf0cfad6ff7759796ae44c5b9fda95\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\King\.android\build-cache\bebc49173d804b4c786e6df69569e5facda8e6ae\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\King\.android\build-cache\32bc63488923b15e6db44f71c9ebde9271b62585\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\King\.android\build-cache\011faf31fb14e1174153951be905703483874bd3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\King\.android\build-cache\edd626c7704481f8e25c01a313a4e6f7689e0ddc\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\King\.android\build-cache\50a805772352dcfcc7040cf2f060d5a6f139bb73\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:14:9-45
+	android:theme
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:12:9-50
+activity#com.example.controlpcpro.ui.ControlPCMainActivity
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:17:9-21:20
+	android:label
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:18:13-77
+activity#com.example.controlpcpro.ui.ActivityViewData
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:22:9-80
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:22:19-78
+activity#com.example.controlpcpro.ui.MyMainActivity
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:23:9-29:20
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:23:19-76
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml:27:27-74
+uses-sdk
+INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\King\.android\build-cache\06d12336a14df6ce81d3a7bb39cab1bbe3e2a6ae\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.1.0] C:\Users\King\.android\build-cache\9bef7a2b64147ae20b6146af4e5fb062a8656858\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\King\.android\build-cache\0882221fbbdc87d9aa41c9660f06652f50d51c7d\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\King\.android\build-cache\d4970bfe1e46b5fb0871fd93e84a10a7cfcd324c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\King\.android\build-cache\1300861562f874d6c3a6c969c8c85576e8112391\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\King\.android\build-cache\4e44919261297ed63d0eb53616c5f8e21824ea5f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] C:\Users\King\.android\build-cache\ce2f71a4e8e07576eab13e05666ce9a550f83f50\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\King\.android\build-cache\4d96dc766acf0cfad6ff7759796ae44c5b9fda95\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\King\.android\build-cache\bebc49173d804b4c786e6df69569e5facda8e6ae\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\King\.android\build-cache\32bc63488923b15e6db44f71c9ebde9271b62585\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\King\.android\build-cache\011faf31fb14e1174153951be905703483874bd3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\King\.android\build-cache\edd626c7704481f8e25c01a313a4e6f7689e0ddc\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\King\.android\build-cache\50a805772352dcfcc7040cf2f060d5a6f139bb73\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.0] C:\Users\King\.android\build-cache\9bef7a2b64147ae20b6146af4e5fb062a8656858\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml
+		INJECTED from I:\AndroidProjectSpace\IndoorPositioning\wifi2\src\main\AndroidManifest.xml

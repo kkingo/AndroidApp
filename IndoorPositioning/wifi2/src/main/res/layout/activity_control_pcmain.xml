@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+	<LinearLayout
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/wifiSearchButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="搜索WIFI"/>
+
+		<Button
+			android:onClick="saveData"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="保存"/>
+
+		<Button
+			android:id="@+id/btn_show"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="查看"/>
+
+	</LinearLayout>
+
+	<ListView
+	    android:id="@+id/wifiListView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:cursorVisible="false"
+	    android:singleLine="false"/>
+
+</LinearLayout>

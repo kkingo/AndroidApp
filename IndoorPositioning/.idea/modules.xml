@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CommonHttpLibrary/CommonHttpLibrary.iml" filepath="$PROJECT_DIR$/CommonHttpLibrary/CommonHttpLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DragRelativeLayout/DragRelativeLayout.iml" filepath="$PROJECT_DIR$/DragRelativeLayout/DragRelativeLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IndoorPositioning.iml" filepath="$PROJECT_DIR$/IndoorPositioning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/indoorposition/indoorposition.iml" filepath="$PROJECT_DIR$/indoorposition/indoorposition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wifi/wifi.iml" filepath="$PROJECT_DIR$/wifi/wifi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wifi2/wifi2.iml" filepath="$PROJECT_DIR$/wifi2/wifi2.iml" />
+    </modules>
+  </component>
+</project>

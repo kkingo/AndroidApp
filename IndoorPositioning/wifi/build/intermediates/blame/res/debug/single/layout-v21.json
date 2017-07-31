@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "I:\\AndroidProjectSpace\\IndoorPositioning\\wifi\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\King\\.android\\build-cache\\0882221fbbdc87d9aa41c9660f06652f50d51c7d\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "I:\\AndroidProjectSpace\\IndoorPositioning\\wifi\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\King\\.android\\build-cache\\0882221fbbdc87d9aa41c9660f06652f50d51c7d\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "I:\\AndroidProjectSpace\\IndoorPositioning\\wifi\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\King\\.android\\build-cache\\0882221fbbdc87d9aa41c9660f06652f50d51c7d\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "I:\\AndroidProjectSpace\\IndoorPositioning\\wifi\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\King\\.android\\build-cache\\0882221fbbdc87d9aa41c9660f06652f50d51c7d\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

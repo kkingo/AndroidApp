@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dragrelativelayout"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <permission
+        android:name="com.example.dragrelativelayout.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <application
+        android:name="com.commonliabray.asynchttp.CommonApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.commonliabray.activity.demo.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.commonliabray.activity.customview.AnimationActivity" />
+        <activity android:name="com.commonliabray.activity.customview.AutomicMoveActivity" />
+        <activity android:name="com.commonliabray.activity.customview.CircleMenuActivity" />
+        <activity android:name="com.commonliabray.activity.customview.ClickImageActivity" />
+        <activity android:name="com.commonliabray.activity.customview.DragLayoutActivity" />
+        <activity android:name="com.commonliabray.activity.customview.IndicatorActivity" />
+        <activity android:name="com.commonliabray.activity.customview.MailAssociateActivity" />
+        <activity android:name="com.commonliabray.activity.customview.OverScrollActivity" />
+        <activity android:name="com.commonliabray.activity.customview.PinnerListViewActivity" />
+        <activity android:name="com.commonliabray.activity.customview.SecretTextViewActivity" />
+        <activity android:name="com.commonliabray.activity.customview.DownloadaAnimatiorActivity" />
+        <activity
+            android:name="com.commonliabray.activity.fragment.anim.FragmentTranslationActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name="com.commonliabray.activity.customview.LoadingActivity" />
+        <activity android:name="com.commonliabray.activity.fragment.viewpager.ProductTourActivity" />
+        <activity android:name="com.commonliabray.activity.photoview.LauncherActivity" />
+        <activity android:name="com.commonliabray.activity.photoview.RotationSampleActivity" />
+        <activity android:name="com.commonliabray.activity.photoview.SimpleSampleActivity" />
+        <activity android:name="com.commonliabray.activity.photoview.ViewPagerActivity" />
+
+        <!-- asynchttp -->
+        <activity android:name="com.commonliabray.asynchttp.activity.HomeActivity" />
+        <activity android:name="com.commonliabray.asynchttp.activity.LoginActivity" />
+        <activity android:name="com.commonliabray.asynchttp.activity.WebActivity" />
+        <activity android:name="com.commonliabray.qrcode.QrCodeActivity" />
+
+        <!-- sharesdk -->
+        <activity android:name="com.commonliabray.sharesdk.ShareActivity" />
+        <activity android:name="com.commonliabray.sharesdk.ThirdLoginActivity" />
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+
+        <!-- systembartint -->
+        <activity android:name="com.commonliabray.activity.systembartint.SystemBarActivity" />
+        <!-- 依赖工程中的Activity -->
+        <activity
+            android:name="com.zxing.app.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity android:name="com.commonliabray.camera.CameraActivity" />
+
+        <!-- map相关 -->
+        <activity android:name="com.commonliabray.map.basic.BasicMapActivity" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="1df15be56b028fee348e817bb210e1e9" />
+
+        <!-- 远程服务(AIDL)相关 -->
+        <service
+            android:name="com.commonliabray.aidl.RemoteAIDLService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.commonliabray.aidl.REMOTE_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.commonliabray.aidl.RemoteAIDLActivity" />
+
+        <service android:name="com.commonliabray.aidl.NativeAIDLService" />
+
+        <activity android:name="com.commonliabray.aidl.NativeAIDLActivity" />
+
+        <!-- Jpush相关 -->
+        <activity
+            android:name="com.commonliabray.jpush.JPushMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.commonliabray.jpush.JPushSetActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.commonliabray.jpush.JPushSettingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.commonliabray.jpush.JPushTestActivity"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.example.dragrelativelayout" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.example.dragrelativelayout" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="com.commonliabray.jpush.JPushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.example.dragrelativelayout" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="a779bf7ec2fb4aab4f197f53" /> <!-- </>值来自开发者平台取得的AppKey -->
+
+        <activity android:name="com.commonliabray.okhttp.OkHttpTestActivity" />
+        
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- JPush permission -->
+    <uses-permission android:name="com.example.dragrelativelayout.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+</manifest>

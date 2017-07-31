@@ -1,0 +1,1 @@
+include ':app', ':wifi', ':wifi2', ':indoorposition', ':DragRelativeLayout', ':CommonHttpLibrary'
